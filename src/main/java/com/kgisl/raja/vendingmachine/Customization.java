@@ -1,6 +1,7 @@
 package com.kgisl.raja.vendingmachine;
 
 public class Customization{
+    
     private Double extraMilk=0.0;
     private Double sugar=0.0;
     private Double mugSize=0.0;

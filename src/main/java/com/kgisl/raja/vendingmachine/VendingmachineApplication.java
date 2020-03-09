@@ -11,8 +11,10 @@ public class VendingmachineApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VendingmachineApplication.class, args);
 		
+		//MugSize
 		Customization cust=new Customization();
 		cust.setMugSize(1000.0);
+		System.out.println("\n\n\n");
 		Product pro1 = ProductFactory.getProductFactory(ProductType.CAPPUCCINO).getProduct(cust);
 		pro1.make();
 
@@ -27,6 +29,8 @@ public class VendingmachineApplication {
 		
 		Product pro5 = ProductFactory.getProductFactory(ProductType.COCOCOLA).getProduct(cust);
 		pro5.make();
+
+		System.out.println("\n\n\n");
 	}
 
 }
