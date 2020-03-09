@@ -2,12 +2,12 @@ package com.kgisl.raja.vendingmachine.model;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component  
 public class Customization{
     
-    private Double extraMilk=0.0;
-    private Double sugar=0.0;
-    private Double mugSize=0.0;
+    private Double extraMilk;
+    private Double sugar;
+    private Double mugSize;
 
     public Double getExtraMilk() {
         return this.extraMilk;

@@ -1,7 +1,5 @@
 package com.kgisl.raja.vendingmachine;
 
-
-import com.kgisl.raja.vendingmachine.config.AppConfig;
 import com.kgisl.raja.vendingmachine.model.Customization;
 import com.kgisl.raja.vendingmachine.productfactory.ProductFactory;
 import com.kgisl.raja.vendingmachine.productfactory.ProductFactory.ProductType;
@@ -9,8 +7,6 @@ import com.kgisl.raja.vendingmachine.products.Product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
 public class VendingmachineApplication {
