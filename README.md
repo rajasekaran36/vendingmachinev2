@@ -1,4 +1,4 @@
-# vendingmachine
+# Project Vending Machine
 
 ### Hints:
 * Factory: Object Creator
