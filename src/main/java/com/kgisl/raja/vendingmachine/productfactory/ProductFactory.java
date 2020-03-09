@@ -1,6 +1,7 @@
-package com.kgisl.raja.vendingmachine;
+package com.kgisl.raja.vendingmachine.productfactory;
 
-
+import com.kgisl.raja.vendingmachine.model.Customization;
+import com.kgisl.raja.vendingmachine.products.Product;
 
 public abstract class ProductFactory{
     public enum ProductType{

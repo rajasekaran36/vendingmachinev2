@@ -1,5 +1,8 @@
-package com.kgisl.raja.vendingmachine;
+package com.kgisl.raja.vendingmachine.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Customization{
     
     private Double extraMilk=0.0;

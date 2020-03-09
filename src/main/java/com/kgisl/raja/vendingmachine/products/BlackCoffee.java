@@ -1,7 +1,6 @@
-package com.kgisl.raja.vendingmachine;
-
-import org.springframework.stereotype.Controller;
-
+package com.kgisl.raja.vendingmachine.products;
+import com.kgisl.raja.vendingmachine.model.Customization;
+import com.kgisl.raja.vendingmachine.model.Preparation;
 
 public class BlackCoffee implements Product{
     private Preparation prep;
